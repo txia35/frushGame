@@ -1,0 +1,11 @@
+float[] selfSizes = {0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5};
+int[] scores = {5, 20, 50, 100, 300, 600, 900, 1500, 2500, 5000};
+float expandConst = 1.5;
+final float totWid = 1280 * expandConst;
+final float totHei = 1280 * expandConst;
+final int GAMING = 0;
+final int GAMEOVER = 1;
+int[] LevelPts = {10, 50, 150, 400, 1000, 2200, 4000, 7000, 12000, 22000};
+final float winResultAniC = 0.1;
+float rotateConst = PI / 5;
+float vision;
